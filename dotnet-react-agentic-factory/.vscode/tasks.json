@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Bootstrap",
+      "type": "shell",
+      "command": "powershell -NoProfile -File scripts/bootstrap.ps1",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Verify",
+      "type": "shell",
+      "command": "powershell -NoProfile -File scripts/verify.ps1",
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Run API",
+      "type": "shell",
+      "command": "powershell -NoProfile -File scripts/run-api.ps1",
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "Run web",
+      "type": "shell",
+      "command": "powershell -NoProfile -File scripts/run-web.ps1",
+      "problemMatcher": [],
+      "group": "build"
+    }
+  ]
+}

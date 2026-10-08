@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Api", "src\Starter.Api\Starter.Api.csproj", "{D990F016-709E-4C1A-A845-EDCBEDAD2001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starter.Api.Tests", "tests\Starter.Api.Tests\Starter.Api.Tests.csproj", "{D990F016-709E-4C1A-A845-EDCBEDAD2002}"
+EndProject
+Global
+  GlobalSection(SolutionConfigurationPlatforms) = preSolution
+    Debug|Any CPU = Debug|Any CPU
+    Release|Any CPU = Release|Any CPU
+  EndGlobalSection
+  GlobalSection(ProjectConfigurationPlatforms) = postSolution
+    {D990F016-709E-4C1A-A845-EDCBEDAD2001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2001}.Release|Any CPU.Build.0 = Release|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+    {D990F016-709E-4C1A-A845-EDCBEDAD2002}.Release|Any CPU.Build.0 = Release|Any CPU
+  EndGlobalSection
+EndGlobal

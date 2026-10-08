@@ -1,0 +1,33 @@
+# Build and tooling
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/coverage/
+TestResults/
+**/coverage.cobertura.xml
+**/coverage.json
+artifacts/
+.vs/
+*.user
+*.suo
+.kilo/node_modules/
+.kilo/worktrees/
+.kilo/sessions/
+# Secrets and local data
+.env
+.env.*
+!.env.example
+!**/.env.example
+appsettings.Local.json
+appsettings.*.local.json
+*.pem
+*.key
+*.pfx
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+# OS
+.DS_Store
+Thumbs.db

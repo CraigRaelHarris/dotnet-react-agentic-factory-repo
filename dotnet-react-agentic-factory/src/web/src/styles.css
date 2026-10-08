@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f5f7fb;
+  color: #15243b;
+}
+main {
+  max-width: 44rem;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+[role='alert'] {
+  color: #9b1c1c;
+}

@@ -1,0 +1,9 @@
+1. Install .NET 10 SDK, Node.js 24 LTS, Git, VS Code and Kilo Code.
+2. Extract this folder to C:\code\your-project and open it in VS Code.
+3. Configure Kilo: OpenRouter, API key in provider settings, z-ai/glm-5.3.
+4. From the repo root in PowerShell run ./scripts/bootstrap.ps1 then ./scripts/verify.ps1.
+5. Fill DISCOVERY.md, CONTEXT.md, PRODUCT_SPEC.md, ARCHITECTURE.md, GUARDRAILS.md and EVALS.md.
+6. Invoke /project-start, review the plan, then /implement.
+7. To run: ./scripts/run-api.ps1 in one terminal, ./scripts/run-web.ps1 in another.
+8. Open http://localhost:5173. API runs on http://localhost:5080.
+9. Push to a new GitHub repo when ready; no remote or inherited Git history is included.

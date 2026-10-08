@@ -1,0 +1,5 @@
+{
+  "backendLineCoverage": 80,
+  "frontendCoverage": 80,
+  "notes": "Program.cs transport wiring is excluded from line coverage and exercised through API integration tests. Cover application behavior as it grows."
+}
