@@ -17,6 +17,8 @@ function Assert-Toolchain {
             throw "Missing $tool. Install .NET 10 SDK and Node.js 24 LTS, then reopen the terminal."
         }
     }
-    Invoke-Checked node @('-e', 'if (Number(process.versions.node.split(".")[0]) !== 24) throw new Error("Use Node.js 24 LTS")')
+    # Keep double quotes out of inline JS: Windows PowerShell 5.1 passes embedded
+    # double quotes to native commands unescaped, which corrupts the node -e script.
+    Invoke-Checked node @('-e', 'if (Number(process.versions.node.split(''.'')[0]) !== 24) throw new Error(''Use Node.js 24 LTS'')')
     Invoke-Checked dotnet @('--version')
 }
